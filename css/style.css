@@ -23,7 +23,7 @@ body{
 }
 
 :root {
-    --light-color: #ffffff00;
+    --light-color:var(--light-color)
     --dark-color: #fffbfb;
     --link-color: rgb(244, 246, 248);
 
@@ -42,6 +42,7 @@ body{
     position: relative;
     max-width: 1080px;
     margin: 0 auto;
+    line-break:auto
   }
 
   #head {
@@ -56,7 +57,7 @@ body{
 
   #head h3 a {
     color: var(--dark-color);
-    text-decoration: none;
+    text-decoration:underline;
   }
 
   h1 {
@@ -80,7 +81,7 @@ body{
    
     a{
         color: var(--body-color);
-        text-decoration: none;
+        /* text-decoration: none; */
     }
     a.hover {
         text-decoration: underline;
@@ -104,4 +105,6 @@ body{
     }
   }
 
-  
+  .year{
+    text-decoration: none;
+  }
