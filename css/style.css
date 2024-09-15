@@ -1,38 +1,58 @@
 * {
-  font-family: Arial, sans-serif;
-  margin:0;
-  padding:0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, sans-serif;
+  margin: 5px;;
+  padding: 13px;;
 }
 
+
+    
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, sans-serif;
   
   }
 
 header{
   font-size: 100px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  color: antiquewhite;
-  padding: 200px 20vw;
+  color: rgb(92, 108, 167);
+  padding: 0px 0vw;
   text-align: center;
 }
 
-
-
-.pyramid {
+footer {
+  background-color: #333;
+  font-family: "Gill Sans", sans-serif;;
+  color: white;
+  padding: 0px 0;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+footer .footer-content {
+  max-width: 1200px;
+  margin: auto;
+  font-size: 20px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-      }
-
-  row {
-  display: flex;
-  justify-content: center;
-  margin: 10px 0;
-      }
-      .row img {
-          width: 300px;
-          height: 300px;
-          margin: 5px;
-          border: 2px solid #333;
-      }
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+footer .footer-content div {
+  margin: 10px;
+}
+footer a {
+  color: #9b58a9;
+  text-decoration: none;
+}
+footer a:hover {
+  color: #ff6f61;
+}
+.social-icons img {
+  width: 30px;
+  margin: 0 10px;
+}
+.copyright {
+  margin-top: 20px;
+  color: #bbb;
+  text-align: center;
+}
