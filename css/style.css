@@ -20,39 +20,29 @@ header{
 }
 
 footer {
-  background-color: #333;
+  background-color: rgb(92, 108, 167);
   font-family: "Gill Sans", sans-serif;;
-  color: white;
+  color: rgb(63, 36, 70);
   padding: 0px 0;
   text-align: center;
-  position: relative;
   bottom: 0;
   width: 100%;
 }
 footer .footer-content {
   max-width: 1200px;
   margin: auto;
-  font-size: 20px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
 footer .footer-content div {
-  margin: 10px;
+  margin: 30px;
 }
 footer a {
   color: #9b58a9;
-  text-decoration: none;
-}
-footer a:hover {
-  color: #ff6f61;
-}
-.social-icons img {
-  width: 30px;
-  margin: 0 10px;
 }
 .copyright {
   margin-top: 20px;
-  color: #bbb;
+  color: #744b87;
   text-align: center;
 }
